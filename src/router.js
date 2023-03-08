@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, Redirect, BrowserRouter } from 'react-router-dom'
-import Control from './pages/control'
-import Login from './pages/login'
+import Control from './modules/control'
+import Login from './modules/login'
 
 const Router = () => {
     const routes = [
