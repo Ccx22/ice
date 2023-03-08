@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-
+import style from './index.module.scss'
 export default class index extends Component {
   render() {
     return (
-      <div>控制台</div>
+      <div className={style.wrap}>控制台</div>
     )
   }
 }
